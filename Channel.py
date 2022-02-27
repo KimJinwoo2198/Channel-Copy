@@ -30,4 +30,4 @@ async def on_message(message):
             await new.send(embed=embed)
             await new.send(message.author.mention)
 
-client.run('OTMyNTg1NDE3NjYyOTM1MDUw.YeVH2g.k51eLNFzQ6lzYJSYXuFg-Rnv8cI')
+client.run('token')
