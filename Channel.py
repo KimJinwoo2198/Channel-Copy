@@ -12,7 +12,6 @@ async def on_message(message):
             embed = discord.Embed(title='채널 복제 완료', color=0x2f3136)
             embed.add_field(name='**채널 복제 명령어 사용자**',value=message.author.mention, inline=False)
             embed.add_field(name='**채널 이름**',value=new.name,inline=False)
-            #embed.set_image(url='https://media.giphy.com/media/HhTXt43pk1I1W/giphy.gif')
             await new.send(embed=embed)
             await new.send(message.author.mention)
 
@@ -25,7 +24,6 @@ async def on_message(message):
             embed = discord.Embed(title='채널 재생성 완료', color=0x2f3136)
             embed.add_field(name='**채널 재생성 명령어 사용자**',value=message.author.mention, inline=False)
             embed.add_field(name='**채널 이름**',value=new.name,inline=False)
-            #embed.set_image(url='https://media.giphy.com/media/HhTXt43pk1I1W/giphy.gif')
             await new.send(embed=embed)
             await new.send(message.author.mention)
 
